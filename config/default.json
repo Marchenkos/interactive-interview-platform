@@ -1,0 +1,18 @@
+{
+    "ENVIROMENT": {
+        "type": "local",
+        "host": 3000
+    },
+    "DATABASE": {
+        "options": {
+            "type": "postgres",
+            "host": "localhost",
+            "port": 5432,
+            "username": "postgres",
+            "password": "fafafa",
+            "database": "interactive-interview-platform",
+            "autoLoadEntities": true,
+            "synchronize": true
+        }
+    }
+}
